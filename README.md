@@ -22,7 +22,7 @@ The main logic is organized in the following projects:
 Dependency injection was implemented using the default mechanism offered by .NET core.
 
 ## Running the application
-Swagger was configured as the startup page of the API project. From there, the API endpoint can be tested.
+Swagger was configured and can be accessed by navigating to "&lt;base-url&gt;/swagger". From there, the API endpoint can be tested.
 
 ### Configurations
 Make sure to configure the connection string for the Database and the path to the JSON file to be created.
@@ -30,7 +30,7 @@ Both configurations should be applied in the "appsettings.json" file.<br/>
 <b>NOTE</b>: Keep in mind that the DB referenced by the connection string would be removed and re-created with the corresponding tables when the application is executed.
 
 ### Executing the code
-1. Run the application. The Swagger page should be displayed, listing a single API endpoint:
+1. Run the application and navigate to "&lt;base-url&gt;/swagger". The Swagger page should be displayed, listing a single API endpoint:
 
 ![Swagger API endpoint](img/1-swagger_endpoint.png)
 
