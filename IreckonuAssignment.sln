@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.28922.388
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IreckonuAssignment", "IreckonuAssignment\IreckonuAssignment.csproj", "{E1E06C17-2B04-4E0E-8D59-62560A24CA09}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IreckonuAssignment.DataAccess", "IreckonuAssignment.Data\IreckonuAssignment.DataAccess.csproj", "{459F8830-692E-4EE3-829F-097CE42AD6A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IreckonuAssignment.DataAccess", "IreckonuAssignment.DataAccess\IreckonuAssignment.DataAccess.csproj", "{459F8830-692E-4EE3-829F-097CE42AD6A6}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IreckonuAssignment.BusinessLogic", "IreckonuAssignment.BusinessLogic\IreckonuAssignment.BusinessLogic.csproj", "{9D2B1CB7-8823-42F0-BAE9-2AB8DFE00E97}"
 EndProject
