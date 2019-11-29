@@ -28,7 +28,7 @@
     <ProjectReference Include="..\IreckonuAssignment.BusinessLogic\IreckonuAssignment.BusinessLogic.csproj" />
     <ProjectReference Include="..\IreckonuAssignment.DataAccess.Db\IreckonuAssignment.DataAccess.Db.csproj" />
     <ProjectReference Include="..\IreckonuAssignment.DataAccess.Json\IreckonuAssignment.DataAccess.Json.csproj" />
-    <ProjectReference Include="..\IreckonuAssignment.Data\IreckonuAssignment.DataAccess.csproj" />
+    <ProjectReference Include="..\IreckonuAssignment.DataAccess\IreckonuAssignment.DataAccess.csproj" />
   </ItemGroup>
 
 </Project>

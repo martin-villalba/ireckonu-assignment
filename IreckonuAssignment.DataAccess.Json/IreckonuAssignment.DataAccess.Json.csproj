@@ -10,7 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\IreckonuAssignment.Data\IreckonuAssignment.DataAccess.csproj" />
+    <ProjectReference Include="..\IreckonuAssignment.DataAccess\IreckonuAssignment.DataAccess.csproj" />
     <ProjectReference Include="..\IreckonuAssignment.Domain\IreckonuAssignment.Domain.csproj" />
   </ItemGroup>
 
