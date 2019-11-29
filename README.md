@@ -4,12 +4,13 @@ This repository contains the API implemented as part of the Ireckonu Assignment.
 ## Notes and considerations
 * The code follows coding style from StyleCop.
 * The .Net Core project was implemented using Visual Studio 2019 and Windows 10.
-* A few unit tests were implemented to show that the classes to be tested can be instantiated with "mocked" dependencies. Code for an actual project would require more scenarios to be covered.
-* A basic normalization was applied to the data because I do not have enough context about the exact meaning of each column of data. An actual project would require additional samples of data, more analysis and possible interviews with people that are familiar with the data.<br />
-The normalization was just implemented with the intent of showing how the normalization functionality was included in the solution.
-* Since this is just a "demo" project:
-  * It was configured to delete and re-create the SQL Database every time the project is executed.
+* Since this is just a "demo" project, the following considerations were applied:
+  * A few unit tests were implemented to show that the classes to be tested can be instantiated with "mocked" dependencies. Code for an actual project would require more scenarios to be covered.
+  * A basic normalization was applied to the data because I do not have enough context about the exact meaning of each column of data. An actual project would require additional samples of data, more analysis and possibly interviews with people that are familiar with the data.<br />
+  The normalization was just implemented with the intent of showing how the normalization functionality was included in the solution.
+  * The project was configured to delete and re-create the SQL Database every time the project is executed.
   * The logic was designed to take the data from the posted file and save it. No additional information about the import process is stored (e.g. timestamp or imported file name) and no multiple imports are supported.
+  * I just modified the file size limit to support posting large files. However, an actual project would required more complex solutions such as streaming or work with file chunks to prevent issues with server resources limitations. A load test could be executed to determine if there are potential issues.
 
 ## Implementation
 The main logic is organized in the following projects:
